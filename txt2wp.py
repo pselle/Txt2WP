@@ -1,14 +1,21 @@
-#This will be the project file
-
-# Open text file
-f = open('test.txt', 'r')
+# Create the upload file and the list
 n = open('uploadfile.xml','w')
-# while not end of text file
-for line in f:
-    print 'this is'
-    print line
-    n.write(line)
+a = []
+# put the lines in a list
+with open('test.txt','r') as f:
+    for line in f:
+        #ignore empty lines
+        if(line != '\n'):
+            a.append(line)
+            n.write(line)
+#Splice the list in sets of items
+x = len(a)
+y = 5
+b = a[:y]
+c = a[y+1:y+6]
+d = a[y+y+2:x-y-1]
+e = a[x-y:x]
+print b,c,d,e
 # write to new wp xml file in correct wrappers
-print n.readline()
-# endwhile
+
 # save new xml file with same name as text file

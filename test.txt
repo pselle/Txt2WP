@@ -3,7 +3,7 @@ Date1
 Title1
 http://link1.com
 
-Tweet: Oh hello Twitter!
+Tweet: Oh hello Twitter! This is going to be a multiline tweet! we'll see how this goes. More text test text test texttesxtext test text test texttesx
 
 Website2
 Date2
